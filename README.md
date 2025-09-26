@@ -16,3 +16,8 @@
   > **viewing your configuration**
   >> `git config --list` <br>
   >> `git config user.name`
+  --- 
+  > **unseting**
+  >> ```bash
+  >> git config --global --unset 
+  >> ```
