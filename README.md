@@ -17,7 +17,8 @@
   >> `git config --list` <br>
   >> `git config user.name`
   --- 
-  > **unseting**
+  > **Changing or Unsetting Config Value**
   >> ```bash
-  >> git config --global --unset 
+  >> git config --global --unset code.editor
   >> ```
+  
