@@ -32,3 +32,14 @@ git config --global user.email "your email"
 >> git config --global --unset 
 >> ```
   --- 
+
+## git commit
+> **commit staged changed with message**
+```bash
+git commit -m "message"
+```
+> **commit all tracked changes (skip staging)**
+```bash
+git commit -a -m "message"
+```
+>
