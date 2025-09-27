@@ -61,3 +61,9 @@ git commit -amend -m "corrected message"
 ```bash
 git reset --soft HEAD~1  
 ```
+## git branch
+### **membuat dan mengelola branch lokal**
+
++ membuat branch baru
+```bash
+git branch nama-branch 
