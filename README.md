@@ -70,3 +70,13 @@ git branch
 + membuat branch baru
 ```bash
 git branch nama-branch 
+```
++ Beralih ke branch lain
+```bash
+git checkout nama-branch
+git switch nama-branch
+```
++ Membuat branch baru dan beralih ke branch tersebut
+```bash
+git checkout -b nama-branch
+```
