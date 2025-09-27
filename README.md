@@ -4,21 +4,31 @@
 ---
 ## git config
   >  **set user.name & user.email**
-  >> `git config --global user.name "your name"` <br>
-  >> `git config --global user.email "your email"`
+  ```bash
+   git config --global user.name "your name"
+   git config --global user.email "your email"
+   ```
   ---
   > **set default branch**
-  >> `git config --global init.defaultBranch main/master`
+  ```bash
+  git config --global init.defaultBranch main/master
+  ```
   ---
   > **set code editor**
-  >> `git config --global core.editor "nano"`
+  ```bash
+  git config --global core.editor "nano"
+  ```
   --- 
-  > **viewing your configuration**
-  >> `git config --list` <br>
-  >> `git config user.name`
+> **viewing your configuration**
+>>  ```bash
+>>   git config --list
+>>    ```
+>>    ```bash
+>>    git config user.name
+>>    ```
   --- 
-  > **Changing or Unsetting Config Value**
-  >> ```bash
-  >> git config --global --unset code.editor
-  >> ```
-  
+> **unseting**
+>> ```bash
+>> git config --global --unset 
+>> ```
+  --- 
