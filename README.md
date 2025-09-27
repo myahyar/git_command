@@ -34,12 +34,30 @@ git config --global user.email "your email"
   --- 
 
 ## git commit
-> **commit staged changed with message**
+### **commit staged changed with message**
 ```bash
 git commit -m "message"
 ```
-> **commit all tracked changes (skip staging)**
+### **commit all tracked changes (skip staging)**
 ```bash
 git commit -a -m "message"
 ```
->
+### **see commit history**
+  ```bash
+  git log
+  git log --oneline # for shorter view 
+  git --stat # to see which file changed in each commit
+  ```
+### **troubleshooting common commit mistakes**
++ forgot to stage a file ?
+ ```bash
+ git commit --amend
+ ```
++ typo in your commit message?
+```bash
+git commit -amend -m "corrected message"
+```
++ accidentally commited the wrong file 
+```bash
+git reset --soft HEAD~1  
+```
