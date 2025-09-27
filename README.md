@@ -63,7 +63,10 @@ git reset --soft HEAD~1
 ```
 ## git branch
 ### **membuat dan mengelola branch lokal**
-
++ see list branch 
+```bash
+git branch
+```
 + membuat branch baru
 ```bash
 git branch nama-branch 
