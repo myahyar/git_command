@@ -80,3 +80,8 @@ git switch nama-branch
 ```bash
 git checkout -b nama-branch
 ```
+## Common git merge Options
++ git merge - Merge a branch into your current branch
++ git merge --no-ff - Always create a merge commit
++ git merge --squash - Combine changes into a single commit
++ git merge --abort - Abort a merge in progress
